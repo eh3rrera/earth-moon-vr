@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<spacescapelayers>
+    <layer>
+        <destBlendFactor>one</destBlendFactor>
+        <farColor>0 0 0 1</farColor>
+        <hdrMultiplier>1</hdrMultiplier>
+        <hdrPower>1</hdrPower>
+        <maskEnabled>false</maskEnabled>
+        <maskGain>0.5</maskGain>
+        <maskLacunarity>2</maskLacunarity>
+        <maskNoiseType>fbm</maskNoiseType>
+        <maskOctaves>1</maskOctaves>
+        <maskOffset>1</maskOffset>
+        <maskPower>1</maskPower>
+        <maskScale>1</maskScale>
+        <maskSeed>1</maskSeed>
+        <maskThreshold>0</maskThreshold>
+        <name>Fuzzy Blue Stars</name>
+        <nearColor>1 1 1 1</nearColor>
+        <numPoints>3000</numPoints>
+        <pointSize>3</pointSize>
+        <seed>4</seed>
+        <sourceBlendFactor>one</sourceBlendFactor>
+        <type>points</type>
+    </layer>
+    <layer>
+        <destBlendFactor>one</destBlendFactor>
+        <ditherAmount>0.03</ditherAmount>
+        <gain>1.5</gain>
+        <hdrMultiplier>1</hdrMultiplier>
+        <hdrPower>1</hdrPower>
+        <innerColor>1 1 1 1</innerColor>
+        <lacunarity>2</lacunarity>
+        <name>Fuzzy White Star Overlay</name>
+        <noiseType>ridged</noiseType>
+        <octaves>8</octaves>
+        <offset>0.94</offset>
+        <outerColor>0 0 0 1</outerColor>
+        <powerAmount>1</powerAmount>
+        <previewTextureSize>1024</previewTextureSize>
+        <scale>10</scale>
+        <seed>4</seed>
+        <shelfAmount>0.81</shelfAmount>
+        <sourceBlendFactor>one</sourceBlendFactor>
+        <type>noise</type>
+    </layer>
+</spacescapelayers>
