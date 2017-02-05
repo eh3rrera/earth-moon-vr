@@ -71,9 +71,9 @@ class EarthMoonVR extends React.Component {
 
         <View style={ this.styles.menu }>
           <Button text='+'
-			callback={() => this.setState({ zoom: this.state.zoom + 10 }) } />
+			callback={() => this.setState((prevState) => ({ zoom: prevState.zoom + 10 }) ) } />
           <Button text='-' 
-			callback={() => this.setState({ zoom: this.state.zoom - 10 }) } />
+			callback={() => this.setState((prevState) => ({ zoom: prevState.zoom - 10 }) ) } />
         </View>
 
         <Mesh
