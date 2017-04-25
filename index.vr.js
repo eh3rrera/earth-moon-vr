@@ -6,7 +6,7 @@ import {
   Pano,
   Text,
   View,
-  Mesh,
+  Model,
   AmbientLight,
 } from 'react-vr';
 import Button from './button.js';
@@ -76,7 +76,7 @@ class EarthMoonVR extends React.Component {
 			callback={() => this.setState((prevState) => ({ zoom: prevState.zoom - 10 }) ) } />
         </View>
 
-        <Mesh
+        <Model
 		  style={{
             transform: [
               {translate: [-25, 0, this.state.zoom]},
@@ -86,10 +86,11 @@ class EarthMoonVR extends React.Component {
               {rotateZ: -10}
             ],
           }}
-          source={{mesh:asset('earth.obj'), mtl:asset('earth.mtl'), lit: true}}
+          source={{obj:asset('earth.obj'), mtl:asset('earth.mtl')}}
+		  lit={true}
         />
 		
-		<Mesh
+		<Model
 		  style={{
 			transform: [
 			  {translate: [10, 10, this.state.zoom - 30]},
@@ -97,7 +98,8 @@ class EarthMoonVR extends React.Component {
               {rotateY: this.state.rotation / 3},
 			],
 		  }}
-		  source={{mesh:asset('moon.obj'), mtl:asset('moon.mtl'), lit: true}}
+		  source={{obj:asset('moon.obj'), mtl:asset('moon.mtl')}}
+		  lit={true}
 		/>
       </View>
     );

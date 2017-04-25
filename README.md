@@ -1,5 +1,7 @@
 # earth-moon-vr
 
+**Updated to React VR 1.0.0**
+
 VR app made using the pre-released version of React VR that shows 3D models of the Earth and Moon in a space skybox.
 
 You can see the tutorial of how this app was built at https://www.pluralsight.com/guides/front-end-javascript/getting-started-with-react-vr.
