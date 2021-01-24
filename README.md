@@ -4,7 +4,7 @@
 
 VR app made using the pre-released version of React VR that shows 3D models of the Earth and Moon in a space skybox.
 
-You can see the tutorial of how this app was built at https://www.pluralsight.com/guides/front-end-javascript/getting-started-with-react-vr.
+You can see the tutorial of how this app was built at https://www.pluralsight.com/guides/getting-started-with-react-vr.
 
 3D models used: 
 - [Earth](http://tf3dm.com/3d-model/planet-earth-99065.html)
