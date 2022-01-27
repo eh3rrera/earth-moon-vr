@@ -3519,6 +3519,10 @@ test-exclude@^4.0.3:
     read-pkg-up "^1.0.1"
     require-main-filename "^1.0.1"
 
+three@^0.137.0:
+  version "0.137.0"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.137.0.tgz#0ebd6ba66637a332c31f234bcdd35aeec071a6e3"
+
 three@^0.80.1:
   version "0.80.1"
   resolved "https://registry.yarnpkg.com/three/-/three-0.80.1.tgz#05f6d6710e5ec7b59a4e8a4be0897920516ebf6f"
